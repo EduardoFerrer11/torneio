@@ -1379,7 +1379,7 @@
      <span>GUITAR HERO III</span>
     </div>
    </div>
-   <a href="#register" class="cta-button">PRESS START TO REGISTER</a>
+   <a href="#register" class="cta-button">saiba mais</a>
   </section>
   <section class="games-section" id="games">
    <h2 class="section-title">JOGOS EM DESTAQUE</h2>
@@ -1417,116 +1417,19 @@
    </div>
   </section>
   <section class="register-section" id="register">
-   <h2 class="section-title">CADASTRO DO TORNEIO</h2>
-   <div class="register-container">
-    <div class="qr-card" id="passwordStep">
-     <h3 style="font-family: 'Press Start 2P', monospace; color: #ffff00; margin-bottom: 2rem; font-size: 1.2rem;">🔐 ESCOLHA A SENHA VISUAL</h3>
-     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-bottom: 2rem;">
-      <div class="password-option" onclick="selectPasswordImage('☕', 'XÍCARA')" data-image="☕">
-       <div style="font-size: 4rem; margin-bottom: 1rem;">
-        ☕
-       </div>
-       <div style="font-family: 'Press Start 2P', monospace; color: #ffff00; font-size: 0.9rem;">
-        XÍCARA
-       </div>
-      </div>
-      <div class="password-option" onclick="selectPasswordImage('🎮', 'CONTROLE')" data-image="🎮">
-       <div style="font-size: 4rem; margin-bottom: 1rem;">
-        🎮
-       </div>
-       <div style="font-family: 'Press Start 2P', monospace; color: #ffff00; font-size: 0.9rem;">
-        CONTROLE
-       </div>
-      </div>
-      <div class="password-option" onclick="selectPasswordImage('⚽', 'BOLA')" data-image="⚽">
-       <div style="font-size: 4rem; margin-bottom: 1rem;">
-        ⚽
-       </div>
-       <div style="font-family: 'Press Start 2P', monospace; color: #ffff00; font-size: 0.9rem;">
-        BOLA
-       </div>
-      </div>
-      <div class="password-option" onclick="selectPasswordImage('🏆', 'TROFÉU')" data-image="🏆">
-       <div style="font-size: 4rem; margin-bottom: 1rem;">
-        🏆
-       </div>
-       <div style="font-family: 'Press Start 2P', monospace; color: #ffff00; font-size: 0.9rem;">
-        TROFÉU
-       </div>
-      </div>
-     </div>
-     <button onclick="validatePasswordImage()" class="submit-btn" style="width: 100%; margin-bottom: 2rem;">
-      🔓 CONFIRMAR SENHA
-     </button>
-     <div style="margin-top: 2rem;">
-      <p style="color: #ff00ff; font-size: 1.1rem; margin-bottom: 1rem;">
-       🎯 Escolha a imagem correta para acessar o torneio
-      </p>
-      <p style="color: #ccc; font-size: 0.9rem; line-height: 1.5;">
-       Apenas quem souber a senha visual pode se cadastrar!
-      </p>
-     </div>
-     <div style="margin-top: 2rem; padding: 1rem; background: rgba(255, 255, 0, 0.1); border: 2px solid #ffff00; border-radius: 10px;">
-      <div style="font-family: 'Press Start 2P', monospace; color: #ffff00; font-size: 0.8rem; margin-bottom: 0.5rem;">
-       ⚡ ATENÇÃO GAMER!
-      </div>
-      <p style="color: #fff; font-size: 0.9rem;">
-       DESCUBRA SENHA APOS A COMPRA DO BILHETE , VENHA PARTICIPAR DO PRIMERO TORNEIO RETRO
-      </p>
-     </div>
+   <h2 class="section-title"> Informaçõe sobre o evento </h2>
+
+    <!-- choro e livre  -->
+   
+    <h1>Horario de inicio 19:00 local  ultra coffe dentro do campus </h1>
+    <h2>Para participar , você precisa comprar uma bebida do cardapio + 10 reias para inscrição podendo participar dos 3 dias de jogo</h2>
+
+    <div>
+    <h1 class="section-title">Regras do Torneio</h1>
+    <h2 class"<section>Proibido não se divertir</section></h2>
+    
     </div>
-    <div class="qr-card" id="nameStep" style="display: none;">
-     <h3 style="font-family: 'Press Start 2P', monospace; color: #ffff00; margin-bottom: 2rem; font-size: 1.2rem;">DIGITE SEU NOME GAMER</h3>
-     <form onsubmit="submitName(event)" style="display: flex; flex-direction: column; gap: 1.5rem;">
-      <input type="text" id="playerName" class="form-input" placeholder="SEU NOME GAMER" required style="font-size: 1.2rem; text-align: center; text-transform: uppercase;">
-      <button type="submit" class="submit-btn" style="font-size: 1rem;">
-       CONFIRMAR NOME
-      </button>
-     </form>
-     <div style="margin-top: 2rem; color: #ccc; font-size: 0.9rem;">
-      <p>
-       ✨ Escolha um nome épico que será exibido no chaveamento!
-      </p>
-     </div>
-    </div>
-    <div class="qr-card" id="gameStep" style="display: none;">
-     <h3 style="font-family: 'Press Start 2P', monospace; color: #ffff00; margin-bottom: 2rem; font-size: 1.2rem;">ESCOLHA SEU GAME</h3>
-     <div class="game-selection">
-      <div class="game-option" onclick="selectGame('mortal-kombat')">
-       <div class="game-icon">
-        🥊
-       </div>
-       <div class="game-name">
-        MORTAL KOMBAT
-       </div>
-       <div class="game-info">
-        29/10 - Luta
-       </div>
-      </div>
-      <div class="game-option" onclick="selectGame('bomba-patch')">
-       <div class="game-icon">
-        ⚽
-       </div>
-       <div class="game-name">
-        BOMBA PATCH
-       </div>
-       <div class="game-info">
-        30/10 - Futebol
-       </div>
-      </div>
-      <div class="game-option" onclick="selectGame('guitar-hero')">
-       <div class="game-icon">
-        🎸
-       </div>
-       <div class="game-name">
-        GUITAR HERO III
-       </div>
-       <div class="game-info">
-        31/10 - Música
-       </div>
-      </div>
-     </div>
-    </div>
+    <div class="register-container">
     <div class="qr-card" id="successStep" style="display: none;">
      <h3 style="font-family: 'Press Start 2P', monospace; color: #00ff00; margin-bottom: 2rem; font-size: 1.2rem;">CADASTRO REALIZADO!</h3>
      <div id="playerInfo" style="margin-bottom: 2rem;">
